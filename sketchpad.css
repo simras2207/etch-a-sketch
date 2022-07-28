@@ -1,0 +1,51 @@
+html {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+h1 {
+    color:rgb(16, 39, 74);
+}
+
+body {
+    text-align:center;
+    align-content: center;
+}
+button {
+    margin-top:20px;
+   /*  width:4rem;
+    height:2rem; */
+    background-color: rgb(16, 39, 74);
+    color: #fff;
+    font-weight: 900;
+    padding: 1em 2em;
+    border-radius: 1em;
+    border: none;
+    font-size: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#main {
+    margin:auto;
+    display: block;
+    width:800px;
+    height:800px;
+    background-color: white;
+    box-shadow: inset 0px 0px 20px black;
+    border-radius:2px;
+    font-size:0;
+    border: rgb(16, 39, 74) 4px dotted;
+}
+
+#box-style {
+    display:inline-block;
+    margin:0px;
+    
+}
+
+.black {
+    background-color:black;
+}
